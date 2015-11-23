@@ -1,0 +1,54 @@
+body {
+    background-image: url('../Images/china.png');
+    font-family: Verdana, Arial;
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    background-image: url('../Images/dark_embroidery.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.bg-img {
+    background-image: url('../Images/china.png');
+}
+
+img {
+
+    width: 200px;
+}
+
+main {
+    width: 100%;
+}
+
+h3 {
+    color: #525252;
+}
+
+p {
+    text-align: justify;
+
+}
+
+ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+iframe {
+    vertical-align: center;
+    width: 100%;
+    padding:15px;
+    margin:10px;
+}
