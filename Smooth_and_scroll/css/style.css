@@ -18,8 +18,12 @@ header, footer {
     background-image: url('../Images/china.png');
 }
 
-img {
+.bg-dark {
+    background-image: url('../Images/dark_embroidery.png');
+}
 
+img {
+    padding-top: 20px;
     width: 200px;
 }
 
@@ -28,7 +32,7 @@ main {
 }
 
 h3 {
-    color: #525252;
+    color: #FFFFFF;
 }
 
 p {
@@ -38,11 +42,14 @@ p {
 
 ul li {
     list-style-type: none;
+    font-size: 21px;
+    font-weight: 200;
     padding-bottom: 5px;
 
 }
 
 footer p {
+    padding-top:10px;
     text-align: center;
 }
 
