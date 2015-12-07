@@ -6,7 +6,7 @@ body {
 }
 
 header, footer {
-    background-image: url('../Images/dark_embroidery.png');
+    background-image: url('../images/dark_embroidery.png');
     background-attachment: fixed;
     background-repeat: repeat;
     padding: 50px;
@@ -15,11 +15,11 @@ header, footer {
 }
 
 .bg-img {
-    background-image: url('../Images/china.png');
+    background-image: url('../images/china.png');
 }
 
 .bg-dark {
-    background-image: url('../Images/dark_embroidery.png');
+    background-image: url('../images/dark_embroidery.png');
 }
 
 .img-profile {
@@ -63,9 +63,9 @@ footer p {
 
 iframe {
     vertical-align: center;
-    width: 100%;
-    padding:15px;
-    margin:10px;
+    width:100%;
+    
+    margin:0 auto;
 }
 
 .container { 
@@ -101,7 +101,7 @@ iframe {
 #portfoliolist .portfolio {
   width:24%;
   margin:.3%;
-  display: :block;
+  display: none;
   float:left;
   overflow:hidden;
 }
@@ -145,5 +145,3 @@ iframe {
 .portfolio .text-category {
   display:block;
 }
-
-
